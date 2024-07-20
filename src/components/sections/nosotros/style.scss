@@ -1,0 +1,34 @@
+.nosotros{
+    padding: 20px 0 25px 0;
+    .img {
+        position: relative;
+        margin: 15px 30px;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .presentacion{
+        padding: 15px 0 25px 0;
+    }
+    .perfil{
+        padding: 10px 0;
+        text-align: center;
+        p {
+            text-align: center;
+            padding-bottom: 5px;
+        }
+        img {
+            border-radius: 50%;
+            height: 160px;
+            width: 160px;
+        }
+    }
+    .nauwu{
+        background-color: #3C096C;
+        color: #FFFFFF;
+    }
+    .cami{
+        background-color: #CDB4DB;
+    }
+}
