@@ -1,6 +1,7 @@
 {
   "name": "caminando-webs",
   "private": true,
+  "homepage": "https://nahuelrosales.github.io/caminando-webs/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
