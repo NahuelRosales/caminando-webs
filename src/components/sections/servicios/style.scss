@@ -7,11 +7,32 @@
             height: 58px;
             color: #cdb4db;
         }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
     }
-    .servicio{
+    .servicio {
         padding: 17px 0;
+        h3{
+            text-align: center;
+        }
+        .bold {
+            display: inline;
+            font-weight: 700;
+            font-size: 24px;
+            padding: 0;
+        }
+        .italic{
+            display: inline;
+            font-size: 24px;
+            padding: 0;
+            font-style: italic;
+        }
     }
-    .pw{
-        background-color: #CDB4DB;
+    .pw {
+        background-color: #cdb4db;
     }
 }

@@ -1,26 +1,31 @@
 .inicio {
-    position: relative;
+    align-content: center;
+    padding: 0 10px;
+    padding-top: 10vh;
     color: #ffffff;
-    padding: 88px 24px 0 24px;
-    height: 100vh;
-    background: conic-gradient(from 175deg at 50% 110%, rgb(60, 9, 108) 99deg, rgb(34.62, 4.61, 69.44) 131deg, rgb(17, 0, 28) 203deg, rgb(8, 0, 29) 332deg);
-    height: 95vh;
+    height: 90vh;
+    background-image: linear-gradient(to right top, #11001c, #150223, #18042b, #1b0632, #1e063a, #210741, #250648, #29064f, #2e0756, #32085d, #370865, #3c096c);
+    height: 90vh;
     background-attachment: fixed;
+    letter-spacing: 2px;
     .title {
-        font-size: 45px;
+        font-size: 40px;
         font-family: "PT Serif", serif;
-        font-weight: 400;
+        font-weight: 500;
+        padding: 0 20px;
         margin: 0px 0;
     }
     .sub-title {
+        
+        line-height: 1.5;
         font-size: 30px;
         font-weight: 300;
         margin: 50px 6px;
     }
     p {
         display: inline;
-        font-weight: 600;
-        font-size: 30px;
+        font-weight: 700;
+        font-size: 28px;
         padding: 0;
     }
     .icon-arrow {

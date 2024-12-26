@@ -2,26 +2,42 @@
     padding: 20px 0 25px 0;
     .img {
         position: relative;
-        margin: 15px 30px;
+        margin: 15px 0px;
         img {
-            max-width: 100%;
-            height: auto;
+            width: 100%;
+            max-width: 360px;
+            min-height: 220px;
+            max-height: 360px;
+            object-fit: cover;
         }
     }
     .presentacion{
         padding: 15px 0 25px 0;
+        p{
+            font-size: 26px;
+        }
+        .bold {
+            display: inline;
+            font-weight: 700;
+            font-size: 24px;
+            padding: 0;
+        }
     }
     .perfil{
-        padding: 10px 0;
+        padding: 10px 0 15px 0;
         text-align: center;
         p {
             text-align: center;
             padding-bottom: 5px;
         }
+        .description{
+            font-size: 22px;
+            font-weight: 300;
+        }
         img {
             border-radius: 50%;
-            height: 160px;
-            width: 160px;
+            height: 220px;
+            width: 220px;
         }
     }
     .nauwu{

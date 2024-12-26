@@ -1,4 +1,6 @@
-import hostelBackpackersImg from "../../../../public/hostelBackpackersImg.png";
+import nosotrosImg from "../../../../public/nosotrosImg.png";
+import nauwuImg from "../../../../public/nauwuImg.jpg";
+import camiImg from "../../../../public/camiImg.jpg";
 import "./style.scss";
 
 const Nosotros = () => {
@@ -6,30 +8,41 @@ const Nosotros = () => {
     <section className="nosotros">
       <h3>Sobre nosotros</h3>
       <div className="img">
-        <img src={hostelBackpackersImg} />
+        <img src={nosotrosImg} />
       </div>
       <div className="presentacion">
-        <h3>Lorem Ipsum</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Turpis urna sit in erat.
-          Suspendisse in et vulputate tempor. Pretium lacus sed quam faucibus
-          aliquet et dictum. Fermentum viverra malesuada tellus velit ac.
+          Fue en mayo de 2024 que decidimos comenzar nuestro viaje juntos.{" "}
+          <br />
+          <br /> Nos armamos con una mochila, laptop y ansias por aprender.
+          Decidimos convertirnos en nómadas digitales tras varios años de
+          estudios y experiencias que nos llevaron a dar este gran paso.
+          <br />
+          <br />
+          Creemos que un sitio web debe ser{" "}
+          <p className="bold">accesible e intuitivo</p> para todos los usuarios.
+          Con nuestra formación en Psicología, desarrollo web y diseño UX/UI,
+          estamos completamente preparados para crear experiencias digitales que
+          cumplan con este objetivo.
         </p>
       </div>
       <div className="perfil nauwu">
         <div className="img">
-          <img src={hostelBackpackersImg} />
+          <img src={nauwuImg} />
         </div>
-        <p>
+        <p>Nahuel Rosales</p>
+        <p className="description">
           Desarrollador Full Stack <br />
           Diseñador UX-UI
         </p>
       </div>
       <div className="perfil cami">
         <div className="img">
-          <img src={hostelBackpackersImg} />
+          <img src={camiImg} />
         </div>
-        <p>
+        <p>Camila Gilburt</p>
+
+        <p className="description">
           Licenciada en Psicología <br />
           Diseñadora UX-UI
         </p>
