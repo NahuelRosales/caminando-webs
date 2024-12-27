@@ -1,12 +1,57 @@
 .contacto {
     background-color: #3c096c;
     color: #ffffff;
+    padding: 20px 0 25px 0;
+
+    .container{
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      margin: 0 20px;
+      p{
+        padding: 0;
+        margin: 0;
+      }
+      .icon {
+        font-size: 28px;
+        margin: 10px
+      }
+    }
     .formulario {
-        .row{
-            
+        display: flex;
+        flex-direction: column;
+        border-radius: 5%;
+        padding: 10px;
+        margin: 25px auto;
+        height: 460px;
+        width: 320px;
+        background-color: #ffffff;
+        color: #3c096c;
+        text-align: left;
+        label{
+            margin: 8px 0 0 8px;
+            font-weight: 400;
+            font-size: 20px;
         }
         .input {
-            border-radius: 5px;
+            border: 1px solid #c5c5c5;
+            margin: 5px 0;
+            border-radius: 5%;
+            height: 40px;
+        }
+        .textarea {
+            height: 120px;
+        }
+
+        .button-send {
+            margin: 20px 10px;
+            border-radius: 20px;
+            border: none;
+            background: #a9e5bb;
+            padding: 11px 55px 11px 55px;
+            color: #230545;
+            font-size: 24px;
+            cursor: pointer;
         }
     }
 }

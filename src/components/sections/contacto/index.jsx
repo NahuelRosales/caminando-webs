@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { Icon } from "@iconify/react";
 
-/* import Button from "../../../commons/Button"; */
 import "./style.scss";
 
 const Contacto = () => {
@@ -25,24 +25,25 @@ const Contacto = () => {
   };
   return (
     <section className="contacto">
-      <div>
+      <div className="contact-box">
         <h3>Contactanos</h3>
-        <div>
+        <div className="container">
+          <Icon className="icon phone" icon="ph:phone-light" />
           <p>+5411125645</p>
         </div>
-        <div>
+        <div className="container">
+          <Icon className="icon mail" icon="octicon:mail-24" />
           <p>caminandomailing@gmail.com</p>
         </div>
       </div>
-      <div id="after_submit"></div>
-      <form ref={form} onSubmit={sendEmail}>
+      <form className="formulario" ref={form} onSubmit={sendEmail}>
         <label>Tu nombre:</label>
-        <input type="text" name="user_name" />
+        <input className="input" type="text" name="user_name" />
         <label>Tu email:</label>
-        <input type="email" name="user_email" />
-        <label>Dejanos tu consulta...</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+        <input className="input" type="email" name="user_email" />
+        <label>Dejanos tu consulta:</label>
+        <textarea className="input textarea" name="message" />
+        <input className="button-send" type="submit" value="ENVIAR" />
       </form>
     </section>
   );
