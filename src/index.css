@@ -41,6 +41,10 @@ p {
   font-weight: 400;
   text-align: left;
 }
+ul{
+  padding: 0;
+  margin: 0 auto;
+}
 
 body {
   margin: 0 auto;
