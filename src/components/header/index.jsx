@@ -36,7 +36,7 @@ const Header = () => {
                     </li>
                     <li>
                         <Icon className="icon" icon="lucide:bed" />
-                        <p>Proyectps</p>
+                        <p>Proyectos</p>
                     </li>
                     <li>
                         <Icon className="icon" icon="bx:map" />
@@ -52,7 +52,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="caminando-webs-logo" />
         </header>
     );
 };

@@ -1,6 +1,6 @@
-import { Link } from "react-router";
-import hostelBackpackersImg from "../../../../public/hostelBackpackersImg.png";
-import puraVidaHospedajeImg from "../../../../public/puraVidaHospedajeImg.png";
+
+import hostelBackpackersImg from "/hostelBackpackersImg.png";
+import puraVidaHospedajeImg from "/puraVidaHospedajeImg.png";
 import "./style.scss";
 
 const Proyectos = () => {

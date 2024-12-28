@@ -1,0 +1,24 @@
+.footer{
+    background-color: #3C096C;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    .icons{
+        font-size: 36px;
+
+        .icon{
+            margin: 16px 20px 8px 20px;
+        }
+        .mail{
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+    }
+    img{
+        height: 60px;
+        margin-bottom: 20px;
+
+    }
+    .rights{
+        font-size: 16px;
+    }
+}

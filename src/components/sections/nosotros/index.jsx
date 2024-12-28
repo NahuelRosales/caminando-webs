@@ -1,6 +1,6 @@
-import nosotrosImg from "../../../../public/nosotrosImg.png";
-import nauwuImg from "../../../../public/nauwuImg.jpg";
-import camiImg from "../../../../public/camiImg.jpg";
+import nosotrosImg from "/nosotrosImg.png";
+import nauwuImg from "/nauwuImg.jpg";
+import camiImg from "/camiImg.jpg";
 import "./style.scss";
 
 const Nosotros = () => {
