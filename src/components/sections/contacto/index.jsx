@@ -17,11 +17,14 @@ const Contacto = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          alert ( 'Mensaje enviado, responederemos su consulta a la brevedad :)' ) 
         },
         (error) => {
           console.log("FAILED...", error.text);
+          alert ( '¡Algo salió mal!' );
         }
       );
+      e.target.reset();
   };
   return (
     <section className="contacto">
@@ -38,11 +41,11 @@ const Contacto = () => {
       </div>
       <form className="formulario" ref={form} onSubmit={sendEmail}>
         <label>Tu nombre:</label>
-        <input className="input" type="text" name="user_name" />
+        <input placeholder="Escribe tu nombre..." className="input" type="text" name="user_name" required />
         <label>Tu email:</label>
-        <input className="input" type="email" name="user_email" />
+        <input placeholder="Escribe tu email..." className="input" type="email" name="user_email" required  />
         <label>Dejanos tu consulta:</label>
-        <textarea className="input textarea" name="message" />
+        <textarea placeholder="Escribe tu consulta..." className="input textarea" name="message" required  />
         <input className="button-send" type="submit" value="ENVIAR" />
       </form>
     </section>
