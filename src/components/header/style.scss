@@ -1,6 +1,5 @@
 header {
     display: flex;
-    padding: 16px 28px;
     position: fixed;
     z-index: 10;
     top: 0;
@@ -24,16 +23,16 @@ header {
     justify-content: space-between;
     img {
         height: 46px;
-        margin-right: 40px;
+        padding: 16px 28px 16px 0;
     }
     .icon {
         align-self: center;
         height: 45px;
         width: 45px;
         color: #ffffff;
+        padding-left: 28px;
     }
     .menuBar {
-        padding: 16px 28px;
         flex-direction: column;
         width: 100vw;
         height: 100vh;
